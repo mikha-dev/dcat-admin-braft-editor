@@ -1,7 +1,7 @@
 {
     "name": "mikha-dev/dcat-admin-braft-editor",
-    "alias": "Braft Editor编辑器",
-    "description": "Dcat Admin扩展 - Braft Editor编辑器",
+    "alias": "Braft Editor",
+    "description": "Dcat Admin - Braft Editor",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/tyrantg/dcat-admin-braft-editor",
