@@ -8,7 +8,7 @@ class Setting extends Form
 {
     public function title()
     {
-        return '编辑器基础设置';
+        return 'Edit Settings';
     }
 
     protected function formatInput(array $input)
@@ -21,7 +21,7 @@ class Setting extends Form
 
     public function form()
     {
-        $this->text('upload_url', '上传URL')->default('/admin/tyrantg/braft/upload');
-        $this->text('upload_path', '上传路径')->default('public/braft-files');
+        $this->text('upload_url', 'Upload URL ')->default('/admin/tyrantg/braft/upload');
+        $this->text('upload_path', 'Upload Path')->default('public/braft-files');
     }
 }

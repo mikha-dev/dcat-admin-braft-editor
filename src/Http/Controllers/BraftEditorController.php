@@ -19,7 +19,7 @@ class BraftEditorController extends Controller
         return response()->json([
             'return_code' => '200',
             'result_code' => 'SUCCESS',
-            'msg' => '上传成功',
+            'msg' => 'Uploaded successfully',
             'url' => $url,
         ]);
     }
