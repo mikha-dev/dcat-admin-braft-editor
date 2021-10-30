@@ -36,7 +36,7 @@ class DcatAdminBraftEditorServiceProvider extends ServiceProvider
     {
         if (
             strtoupper(request()->method()) === 'GET' &&
-            request()->path() != config('admin.route.prefix').'/auth/login'
+            request()->path() != config('admin.route.prefix').'auth/login'
         ) {
             Admin::script(<<<JS
 $('#braft-script').remove()
